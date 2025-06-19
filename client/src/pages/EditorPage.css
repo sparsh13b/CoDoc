@@ -1,0 +1,40 @@
+/* Full-page wrapper with light gray background */
+.editor-wrapper {
+  background-color: #f1f1f1;
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.editor-container {
+  background-color: white;
+  width: 794px; /* A4 width */
+  min-height: 1123px; /* A4 height */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 4px;
+}
+
+
+.ql-container {
+  border: none !important;
+}
+
+
+.ql-editor {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 0 !important;
+  min-height: 1000px;
+}
+
+
+.ql-toolbar {
+  background-color: #fff;
+  border-radius: 4px 4px 0 0;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
