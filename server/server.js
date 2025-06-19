@@ -13,13 +13,13 @@ const app = express();
 const server = http.createServer(app); // for socket.io
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // or your frontend port
+    origin: "https://co-doc-zeta.vercel.app/", // or your frontend port
     methods: ["GET", "POST"],
     credentials: true
   }
 });
 
-app.use(cors({ origin: "http://localhost:3000", credentials: true }));
+app.use(cors({ origin: "https://co-doc-zeta.vercel.app/", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 

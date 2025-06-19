@@ -5,6 +5,7 @@ import "react-quill/dist/quill.snow.css";
 import "./EditorPage.css";
 import { io } from "socket.io-client";
 
+
 const SAVE_INTERVAL_MS = 2000;
 
 function EditorPage() {
@@ -44,7 +45,7 @@ function EditorPage() {
 
   // Connect to socket
   useEffect(() => {
-    const socket = io("http://localhost:5000");
+    const socket = io(process.env.REACT_APP_SERVER_URL);
     socketRef.current = socket;
 
     socket.on("connect", () => {
