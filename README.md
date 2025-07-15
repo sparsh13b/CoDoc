@@ -1,4 +1,4 @@
-# 📝 CoDoc – Real-time Collaborative Text Editor
+#  CoDoc – Real-time Collaborative Text Editor
 
 CoDoc is a real-time collaborative text editor inspired by Google Docs. Built using **React**, **Express**, **Socket.IO**, and **MongoDB**, it allows multiple users to edit the same document simultaneously with real-time syncing and autosave features.
 
@@ -13,18 +13,18 @@ CoDoc is a real-time collaborative text editor inspired by Google Docs. Built us
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🧠 Real-time collaborative editing with Socket.IO
-- 💾 Auto-saving to MongoDB every 2 seconds
-- 📝 Rich text formatting with React Quill
-- 🌄 Image insertion by URL
-- 🔄 Seamless syncing across users
-- ⚙️ Deployed using Vercel (frontend) & Render (backend)
+-  Real-time collaborative editing with Socket.IO
+-  Auto-saving to MongoDB every 2 seconds
+-  Rich text formatting with React Quill
+-  Image insertion by URL
+-  Seamless syncing across users
+-  Deployed using Vercel (frontend) & Render (backend)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer     | Technologies                                   |
 |-----------|------------------------------------------------|
